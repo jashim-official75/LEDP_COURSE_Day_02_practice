@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 02| Practice |ICT WEB DEVELOPEMENT COURSE</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body id="body">
+
+    <div class="project">
+        <h1>LEDP-ICT DIVISION WEB-DEVELOPEMENT COURSE(2020)</h1>
+        <h2 class="batch">Batch:(SP WD-01)</h2>
+    </div>
+
+    <div class="container">
+
+        <h2 class="head__title">Practice Class-02</h2>
+        <span class="subject__of__class">(Table,Input Form, Iframe,Audio, Video)</span>
+        <p class="sir">Mentor:Riyaz Murshed</p>
+        <h1 class="title">Make a Table with HTML5 and CSS3 </h1>
+
+        <table>
+            <caption>Student Information</caption>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Mobile Number</th>
+                <th>District</th>
+            </tr>
+            <tr>
+                <td>01</td>
+                <td>Md Jashim Uddin</td>
+                <td>ahmmedshakib18@gamil.com</td>
+                <td>01994037306</td>
+                <td>Brahmanbaria</td>
+            </tr>
+            <tr>
+                <td>02</td>
+                <td>Md Kahirul Amin </td>
+                <td>khairul@gamil.com</td>
+                <td>01895647892</td>
+                <td>Dhaka</td>
+            </tr>
+            <tr>
+                <td>03</td>
+                <td>Faysal Ahmmed</td>
+                <td>faysalfs@gamil.com</td>
+                <td>01732025698</td>
+                <td>Kumilla</td>
+            </tr>
+            <tr>
+                <td>04</td>
+                <td>Md Jashim Uddin</td>
+                <td>ahmmedshakib18@gamil.com</td>
+                <td>01994037306</td>
+                <td>Brahmanbaria</td>
+            </tr>
+            <tr>
+                <td>05</td>
+                <td>Md Kahirul Amin </td>
+                <td>khairul@gamil.com</td>
+                <td>01895647892</td>
+                <td>Dhaka</td>
+            </tr>
+            <tr>
+                <td>06</td>
+                <td>Faysal Ahmmed</td>
+                <td>faysalfs@gamil.com</td>
+                <td>01732025698</td>
+                <td>Kumilla</td>
+            </tr>
+            <tr>
+                <td>07</td>
+                <td>Md Jashim Uddin</td>
+                <td>ahmmedshakib18@gamil.com</td>
+                <td>01994037306</td>
+                <td>Brahmanbaria</td>
+            </tr>
+            <tr>
+                <td>08</td>
+                <td>Md Kahirul Amin </td>
+                <td>khairul@gamil.com</td>
+                <td>01895647892</td>
+                <td>Dhaka</td>
+            </tr>
+            <tr>
+                <td>09</td>
+                <td>Faysal Ahmmed</td>
+                <td>faysalfs@gamil.com</td>
+                <td>01732025698</td>
+                <td>Kumilla</td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td>Md Jashim Uddin</td>
+                <td>ahmmedshakib18@gamil.com</td>
+                <td>01994037306</td>
+                <td>Brahmanbaria</td>
+            </tr>
+            <tr>
+                <td>11</td>
+                <td>Md Kahirul Amin </td>
+                <td>khairul@gamil.com</td>
+                <td>01895647892</td>
+                <td>Dhaka</td>
+            </tr>
+            <tr>
+                <td>12</td>
+                <td>Faysal Ahmmed</td>
+                <td>faysalfs@gamil.com</td>
+                <td>01732025698</td>
+                <td>Kumilla</td>
+            </tr>
+        </table>
+        <!-- colspan -->
+        <table>
+            <caption>Colspan Example</caption>
+            <tr>
+
+                <th>Name</th>
+                <th colspan="2">Mobile Number</th>
+
+            </tr>
+            <tr>
+
+                <td>Md Jashim Uddin</td>
+
+                <td>01994037306</td>
+                <td>01880985958</td>
+
+            </tr>
+            <tr>
+                <td>Md Kahirul Amin </td>
+                <td>01895647892</td>
+                <td>01965325698</td>
+
+            </tr>
+
+        </table>
+        <!-- rowspan -->
+        <table>
+            <caption>Rowspan Example</caption>
+            <tr>
+
+                <th>Name</th>
+                <td>Ahmmed Emon</td>
+                <td>Md Karim</td>
+                <td>Md Jashim Uddin</td>
+
+
+            </tr>
+            <tr>
+
+                <th rowspan="2">Mobile Number</th>
+                <td>01994037306</td>
+                <td>01994037306</td>
+                <td>01994037306</td>
+
+            </tr>
+            <tr>
+                <td>01880985958</td>
+                <td>01880985958</td>
+                <td>01880985958</td>
+
+            </tr>
+        </table>
+        <h1 class="title">Make a Registration Form with HTML5 and CSS3 </h1>
+
+        <div class="container_form">
+            <!-- input field -->
+            <form action="#">
+                <label for="txt_name">Name:</label>
+                <input type="text" id="txt_name" name="txt_name" class="input__field"
+                    placeholder="Please Enter Your Name">
+                <label for="txt_email">Eamil:</label>
+                <input type="email" id="txt_email" name="txt_email" class="input__field"
+                    placeholder="Please Enter Your Email">
+                <label for="txt_number">Mobile Number:</label>
+                <input type="text" id="txt_number" name="txt_number" class="input__field"
+                    placeholder="Please Enter Your Email">
+                <label for="txt_date">Date Of Birth:</label>
+                <input type="date" id="txt_date" name="txt_date" class="input__field">
+                <label for="txt_gender">Gender:</label>
+                <input type="radio" value="male" name="txt_gender" id="txt_gender"><label for="txt_gender">Male</label>
+                <input type="radio" value="female" name="txt_gender" id="txt_gender"><label
+                    for="txt_gender">Female</label>
+                <input type="radio" value="others" name="txt_gender" id="txt_gender"><label
+                    for="txt_gender">Other's</label>
+                <br>
+                <br>
+                <label for="txt_dist">District:</label>
+                <br>
+
+                <select name="txt_date" id="txt_dist">
+                    <option value="">Select Your District</option>
+                    <option value="01">Brahmanbaria</option>
+                    <option value="01">Dhaka</option>
+                    <option value="01">Kumilla</option>
+                </select>
+                <br>
+                <br>
+                <label for="txt_zipcode">Zip Code:</label>
+                <br>
+
+                <input type="number" id="txt_zipcode" name="txt_zipcode" class="input__field"
+                    placeholder="Please Enter Zipcode">
+                <label for="txt_dist">Course List:</label>
+                <br>
+
+                <select name="txt_ddlcourse" id="txt_ddlcourse">
+                    <option value="">Select Your Course</option>
+                    <option value="01">Web-Design</option>
+                    <option value="01">Graphics Design</option>
+                    <option value="01">Digital Marketing</option>
+                </select>
+                <br>
+                <br>
+                <label for="txt_file">Upload Your File</label>
+                <input type="file" name="txt_file" id="txt_file" class="input__field">
+                <label for="txt_msg">Message:</label>
+                <br>
+                <br>
+
+                <textarea name="message" id="" cols="30" rows="10" placeholder="type your message here...."></textarea>
+
+                <input type="submit" value="submit" class="btn">
+
+            </form>
+
+        </div>
+        <h1 class="title">Audio Design with HTML5 and CSS3 </h1>
+
+        <div class="container__audio">
+            <img src="media/pexels-arun-thomas-1156684.jpg" alt="">
+
+            <audio controls>
+                <source src="media/Dago biday amay-ashik madina.mp3">
+            </audio>
+        </div>
+        <h1 class="title">Video Design with HTML5 and CSS3 </h1>
+
+        <div class="container__audio">
+         
+
+            <video controls>
+                <source src="media/Bangla Gojol 2018 _ Nabiallah _ Nazrul Islam And Elias Amin _ Kalarab Shilpigosthi _ Best Naat.mp4">
+            </video>
+        </div>
+
+    </div>
+</body>
+
+</html>
